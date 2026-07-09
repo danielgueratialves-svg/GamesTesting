@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Dodge - Esquiva Espacial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Cyber Dodge</h1>
+    
+    <div class="painel-pontos">
+        <div id="score">PONTOS: 0</div>
+        <div id="highscore">RECORDE: 0</div>
+    </div>
+
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="500" height="600"></canvas>
+        
+        <div id="overlay" class="tela-overlay">
+            <button id="startBtn" class="btn-jogar">Iniciar Jogo</button>
+            <p class="instrucoes">Mova o mouse para os lados para desviar dos blocos vermelhos.</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
