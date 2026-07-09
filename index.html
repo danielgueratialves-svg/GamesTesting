@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Dodge - Esquiva Espacial</title>
+    <title>Neon Breaker - Destrua os Blocos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Cyber Dodge</h1>
+    <h1>Neon Breaker</h1>
     
-    <div class="painel-pontos">
+    <div class="painel-info">
         <div id="score">PONTOS: 0</div>
-        <div id="highscore">RECORDE: 0</div>
+        <div id="lives">VIDAS: 3</div>
     </div>
 
     <div id="gameContainer">
-        <canvas id="gameCanvas" width="500" height="600"></canvas>
+        <canvas id="gameCanvas" width="600" height="450"></canvas>
         
         <div id="overlay" class="tela-overlay">
-            <button id="startBtn" class="btn-jogar">Iniciar Jogo</button>
-            <p class="instrucoes">Mova o mouse para os lados para desviar dos blocos vermelhos.</p>
+            <h2 id="overlayTitle">NEON BREAKER</h2>
+            <button id="startBtn" class="btn-jogar">Jogar</button>
+            <p class="instrucoes">Mova o mouse para os lados para controlar a barra e rebater a bola.</p>
         </div>
     </div>
 
