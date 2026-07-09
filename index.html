@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Breaker - Destrua os Blocos</title>
+    <title>Neon Coin Collector</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Neon Breaker</h1>
+    <h1>Coin Collector</h1>
     
-    <div class="painel-info">
-        <div id="score">PONTOS: 0</div>
-        <div id="lives">VIDAS: 3</div>
+    <div class="painel-jogo">
+        <div id="score">MOEDAS: 0</div>
+        <div id="timer">TEMPO: 10s</div>
     </div>
 
     <div id="gameContainer">
-        <canvas id="gameCanvas" width="600" height="450"></canvas>
+        <canvas id="gameCanvas" width="500" height="400"></canvas>
         
         <div id="overlay" class="tela-overlay">
-            <h2 id="overlayTitle">NEON BREAKER</h2>
-            <button id="startBtn" class="btn-jogar">Jogar</button>
-            <p class="instrucoes">Mova o mouse para os lados para controlar a barra e rebater a bola.</p>
+            <h2 id="overlayTitle">COIN COLLECTOR</h2>
+            <button id="startBtn" class="btn-jogar">Iniciar</button>
+            <p class="instrucoes">Usa as setas do teclado ou W, A, S, D para mover o teu quadrado e apanhar as moedas amarelas!</p>
         </div>
     </div>
 
